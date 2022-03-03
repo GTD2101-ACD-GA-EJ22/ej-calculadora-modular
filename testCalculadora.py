@@ -87,8 +87,7 @@ def menu():
 
     return opcion
 
-if __name__ == "__main__":
-
+def main():
     opcion = "1"
     while opcion != "*":
         opcion = menu()
@@ -104,3 +103,7 @@ if __name__ == "__main__":
         
     os.system("clear")
     print("Fin de la calculadora...")
+
+
+if __name__ == "__main__":
+    main()
